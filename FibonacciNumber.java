@@ -17,7 +17,7 @@ public class FibonacciNumber {
         try {
             int max = scanner.nextInt();
 
-            for (int n=1; n<=max; n++) {
+            for (int n = 1; n <= max; n++) {
                 System.out.print(fibonacci(n)+", ");
             }
         } catch (InputMismatchException e) {
